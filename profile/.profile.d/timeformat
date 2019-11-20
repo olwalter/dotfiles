@@ -1,0 +1,2 @@
+export TIME_STYLE="posix-long-iso"
+export LC_TIME="en_DK.utf8"
