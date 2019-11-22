@@ -1,0 +1,10 @@
+[user]
+        name = Olaf Walter
+#        email = 
+[url "https://github.com/"]
+        insteadOf = git://github.com/
+[core]
+	editor = vim
+	autocrlf = input
+[credential]
+	helper = store

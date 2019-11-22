@@ -7,7 +7,23 @@ To install, run the following command(s) from the dotfiles directory, where `<PA
 stow -t $HOME <PACKAGE>
 ```
 
-Note: the profile.d needs the following lines in your $HOME/.bashrc to work:
+Short description
+-----------------
+
+* git
+* inputrc
+* profile - a directory of snippets that .bashrc will source
+* screen  
+* tmux  
+* vim - contains a .vimrc and a .gvimrc. Very basic, just enough to work.
+* wget
+
+
+
+Notes
+-----
+
+The profile.d needs the following lines in your $HOME/.bashrc to work:
 ```
 # include our .profile.d
 if [ -d "$HOME/.profile.d" ] ; then
@@ -16,3 +32,4 @@ if [ -d "$HOME/.profile.d" ] ; then
     done
 fi
 ```
+
