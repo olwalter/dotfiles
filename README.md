@@ -1,5 +1,6 @@
 # dotfiles
-Basic dotfiles for Linux
+Basic dotfiles for Linux. The goal is not to have the latest and greatest super-sophisticated setup, 
+but a consistent and working config in different environments.
 
 To install, run the following command(s) from the dotfiles directory, where `<PACKAGE>` is the name of a subdirectory like vim.
 
