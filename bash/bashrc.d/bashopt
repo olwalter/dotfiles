@@ -1,0 +1,3 @@
+shopt -s cdspell
+complete -d cd
+CDPATH=.:~:~/git
